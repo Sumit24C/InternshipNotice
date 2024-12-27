@@ -1,4 +1,17 @@
-*{
-  margin: 0;
-  padding: 0;
-}
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content-layout {
+    display: flex;
+    flex: 1;
+  }
+  
+  form-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for the form area */
+  }
+  

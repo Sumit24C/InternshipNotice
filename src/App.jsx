@@ -1,14 +1,18 @@
-import React from 'react'
-import Navbar from './Components/Navbar'
-import Dashboard from './Components/Dashboard'
+import React from "react";
+import Navbar from "./Components/Navbar.jsx"; // Navbar Component
+import Sidebar from "./Components/Sidebar.jsx"
+import NoticeForm from "./Components/NoticeForm.jsx"; // Placement Notice Form Component
+import "./App.css"; // Add overall styles
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
-      <Dashboard/>
-    </div>
-  )
-}
+    <>
+      <Navbar />
+      <Sidebar />
+      <NoticeForm />
+    </>
 
-export default App
+  );
+};
+
+export default App;

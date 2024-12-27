@@ -1,5 +1,5 @@
 import React from "react";
-import "./Dashboard.css";
+import "./Sidebar.css";
 import logo from "./tcet.png";
 // Import FontAwesome components
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,7 +10,7 @@ const Dashboard = () => {
     <div className="dashboard-container">
       <div className="sidebar-header">
         <img src={logo} alt="tcet-logo" />
-        <h3>TCET - TNP</h3>
+        <h3>TCET - TNP</h3> 
       </div>
 
       <ul className="sidebar-menu">

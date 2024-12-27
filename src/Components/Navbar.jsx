@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='title'>Placement Coordinator</div>
       </nav>
     </>
-  )
+  ) 
 }
 
 export default Navbar
