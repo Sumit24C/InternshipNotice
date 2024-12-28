@@ -1,17 +1,12 @@
 import React from "react";
-import Navbar from "./Components/Navbar.jsx"; // Navbar Component
-import Sidebar from "./Components/Sidebar.jsx"
-import NoticeForm from "./Components/NoticeForm.jsx"; // Placement Notice Form Component
+import AppRoutes from "./AppRoutes.jsx"; // Rename the custom Routes component to AppRoutes
 import "./App.css"; // Add overall styles
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Sidebar />
-      <NoticeForm />
+      <AppRoutes />
     </>
-
   );
 };
 

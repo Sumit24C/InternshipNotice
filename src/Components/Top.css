@@ -1,0 +1,151 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: #fea500;
+    color: white;
+    margin-top: -25px;
+    padding: 30px 30px;
+}
+
+.intern {
+    display: flex;
+    font-size: 40px;
+    background-color: #153e74;
+    padding: 10px 30px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.job {
+    margin: 0 20px;
+    font-size: 20px;
+    background-color: #1976d3;
+    padding: 10px 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bt {
+    background-color: #153e74;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 10px;
+}
+
+.table-container {
+    padding: 20px;
+    margin: 20px;
+    margin-top: -20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Added for responsiveness */
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table thead tr {
+    background-color: #153e74;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #153e74;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.styled-table a {
+    color: #1976d3;
+    text-decoration: none;
+}
+
+.styled-table a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .styled-table th, .styled-table td {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .bt {
+        padding: 8px 16px;
+        font-size: 12px;
+        margin: 10px;
+    }
+
+    .table-container {
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .styled-table th, .styled-table td {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+
+    .bt {
+        padding: 6px 12px;
+        font-size: 10px;
+        margin: 5px;
+    }
+
+    .table-container {
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+.verify-button {
+    background-color: #204a80; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .verify-button:hover {
+    background-color: #1976d3;
+  }
